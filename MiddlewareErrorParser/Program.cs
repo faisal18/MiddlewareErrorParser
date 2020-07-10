@@ -11,6 +11,7 @@ namespace MiddlewareErrorParser
     {
         static void Main(string[] args)
         {
+
             List<string> files = GetAllFiles();
             if (files.Count > 0)
             {
